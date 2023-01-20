@@ -11,8 +11,8 @@ import o1._
 
 
 object Effects {
-  val effects = Vector[Effect](TheSpawn, Tunnel, Fireworks, Starfield, Laser)
-
+  //val effects = Vector[Effect](TheSpawn, Tunnel, Fireworks, Starfield, Laser)
+  val effects = Vector[Effect](Tunnel, Fireworks) // Only these effects are done by Sebastian.
   var done = false;
   var currentEffect = effects.head
   var nextEffects   = effects.tail
